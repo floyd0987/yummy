@@ -1,0 +1,52 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+
+
+ .dhx_cal_event div.dhx_footer,
+ .dhx_cal_event.past_event div.dhx_footer,
+ .dhx_cal_event.event_english div.dhx_footer,
+ .dhx_cal_event.event_math div.dhx_footer,
+ .dhx_cal_event.event_science div.dhx_footer{
+   background-color: transparent !important;
+ }
+ .dhx_cal_event .dhx_body{
+   -webkit-transition: opacity 0.1s;
+   transition: opacity 0.1s;
+   opacity: 0.7;
+ }
+ .dhx_cal_event .dhx_title{
+   line-height: 12px;
+ }
+ .dhx_cal_event_line:hover,
+ .dhx_cal_event:hover .dhx_body,
+ .dhx_cal_event.selected .dhx_body,
+ .dhx_cal_event.dhx_cal_select_menu .dhx_body{
+   opacity: 1;
+ }
+
+ .dhx_cal_event.event_math div, .dhx_cal_event_line.event_math{
+   background-color: orange !important;
+   border-color: #a36800 !important;
+ }
+ .dhx_cal_event_clear.event_math{
+   color:orange !important;
+ }
+
+ .dhx_cal_event.event_science div, .dhx_cal_event_line.event_science{
+   background-color: #36BD14 !important;
+   border-color: #698490 !important;
+ }
+ .dhx_cal_event_clear.event_science{
+   color:#36BD14 !important;
+ }
+
+ .dhx_cal_event.event_english div, .dhx_cal_event_line.event_english{
+   background-color: #FC5BD5 !important;
+   border-color: #839595 !important;
+ }
+ .dhx_cal_event_clear.event_english{
+   color:#B82594 !important;
+ }
